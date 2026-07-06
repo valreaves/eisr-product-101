@@ -1,0 +1,23 @@
+name: Welcome new learner
+
+on:
+  # Runs once when someone forks and pushes their first commit
+  push:
+    branches: [main]
+
+permissions:
+  issues: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    if: github.event.repository.fork == true && github.run_number == 1
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "👋 Welcome to EISR Product Knowledge 101" \
+            --body "You've forked the course. Ready to start? Head to **[Step 1: Portfolio Overview](modules/01-portfolio/README.md)** and complete the quiz.
+
+When you commit your answers, the bot will auto-grade and open the next step. Good luck!"
