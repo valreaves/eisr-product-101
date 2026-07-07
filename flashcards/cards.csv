@@ -1,0 +1,62 @@
+Front,Back,Tag
+"List price of Copilot Business?","$19 / user / month (includes $19 in AI Credits — 1,900 credits pooled)",portfolio
+"List price of Copilot Enterprise?","$39 / user / month (includes $39 in AI Credits — 3,900 credits pooled)",portfolio
+"List price of GHEC?","$21 / user / month (includes 50,000 Actions minutes + 50 GB Packages)",portfolio
+"List price of GHAS Bundled?","$49 / active committer / month",portfolio
+"List price of Code Security standalone?","$30 / active committer / month",portfolio
+"List price of Secret Protection standalone?","$19 / active committer / month",portfolio
+"When does Code Quality GA?","July 20, 2026 (Public Preview now)",portfolio
+"What is an 'active committer'?","Anyone who pushed to a GHAS-enabled repo in the last 90 days",portfolio
+"Two Copilot features that are FREE (don't consume AI Credits)?","Code completion and Next Edit suggestions",portfolio
+"1 AI Credit = how much USD?","$0.01 — so $10 budget = 1,000 credits",portfolio
+"One-line pitch for GHEC?","The GitHub platform: repos + Actions + Packages + AppSec + Copilot, native, one auth, one audit, one bill",portfolio
+"What burns AI Credits?","Chat, agent mode, CCR, Coding Agent, premium models",copilot-business
+"Which AI models does Copilot support?","Claude, GPT, and Gemini — model choice built in",copilot-business
+"Customer says 'our devs use ChatGPT / Cursor.' Your follow-up?","That's shadow IT — code and prompts leaving your control. Copilot Business = same experience with enterprise policy, content exclusions, and audit. $19/seat with $19 AI Credits included.",copilot-business
+"3 governance features unmanaged AI tools lack?","Content exclusions · Org policy · Audit log · Telemetry · Public code filter · SAML/SCIM",copilot-business
+"Where do you point customers for productivity metrics?","Copilot Metrics API — drops into any dashboard. Peer benchmark: 20-40% faster cycle time within 90 days.",copilot-business
+"Name 4 Enterprise-only features (not in Business)?","Knowledge bases · PR summaries · Custom / fine-tuned models · Full cost centers",copilot-enterprise
+"Customer needs chargeback by BU. Which SKU + feature?","Copilot Enterprise + cost centers (separate Azure sub IDs for real billing separation)",copilot-enterprise
+"Customer says 'docs are scattered across Confluence.' Pitch?","Knowledge bases — Enterprise-only. Copilot indexes their docs and answers cite THEIR content. #1 differentiator.",copilot-enterprise
+"Rule of thumb — over how many seats does Enterprise become the right call?","~500 seats — Business gets fragile, cost centers + PR summaries pay for the $20 delta",copilot-enterprise
+"4 upsell triggers from Business to Enterprise?","1) Chargeback need 2) Scattered internal docs 3) Over 500 seats 4) Wants fine-tuning",copilot-enterprise
+"Is CCR a separate SKU?","No — included with every paid Copilot tier",ccr
+"When does Agentic CCR GA?","February 5, 2026",ccr
+"Where does CCR run?","GitHub.com, Visual Studio, and VS Code",ccr
+"Does CCR incur Actions minute charges?","Only agentic CCR on GitHub-hosted runners. Self-hosted runners are free of minute charges.",ccr
+"Customer uses CodeRabbit / Bugbot. Displacement pitch?","You already believe in AI review — you just have it bolted on. Native CCR runs in YOUR PR, YOUR Actions, YOUR governance. No separate contract. Included in Copilot you already pay for.",ccr
+"Why is CCR the H2 Hero motion?","It's included, native, one-click enable — every Copilot customer is a CCR customer. Fastest agentic value proof.",ccr
+"What model powers CCR?","o3-mini — premium model that draws from AI Credits",ccr
+"Where does Coding Agent run?","GitHub Actions",coding-agent
+"Is Coding Agent a separate SKU?","No — included with every paid Copilot license",coding-agent
+"Best workloads for Coding Agent?","The toil pile — bugs, tests, docs, refactors, boilerplate",coding-agent
+"Customer evaluating Devin / Cursor agents. Differentiation?","Coding Agent runs on YOUR Actions, respects YOUR runners, YOUR governance. Included in Copilot — no separate contract.",coding-agent
+"How does the Coding Agent workflow feel to a dev?","Assign an issue to Copilot like assigning a teammate → agent drafts a PR → dev reviews (with CCR) → merge",coding-agent
+"GHEC price + included Actions minutes?","$21 / user / mo · 50,000 Actions minutes · 50 GB Packages storage",ghec
+"What does EMU stand for and who is it for?","Enterprise Managed Users — GHEC cloud with IdP-only identity (no personal GitHub logins). For strict compliance.",ghec
+"Actions overage rate for Linux 2-core? Windows / macOS multipliers?","Linux 2-core: $0.008/min. Windows = 2x. macOS = 10x.",ghec
+"Customer runs Jenkins + Artifactory + ADO. Consolidation pitch?","Consolidate to GHEC: Actions replaces Jenkins, Packages replaces Artifactory, native SCM replaces ADO. One auth, one audit, one bill.",ghec
+"MSFT funding for ADO → GHEC migrations?","Azure Accelerate Program — 30% empowerment for ADO → GHE transition. Cloud Accelerate Factory + partner runs the migration.",ghec
+"Three approved US services partners?","Avanade · Accenture · Slalom",ghec
+"How do you enforce standards across all repos in an org?","Rulesets — required checks, protected branches, push rules. Set at org level, applies to every repo.",ghec
+"When does a customer need GHES over GHEC?","Regulatory blockers: FedRAMP, air-gap, sovereignty. Often hybrid: GHES for regulated workloads, GHEC for the rest.",ghec
+"Price of GHAS Bundled?","$49 / active committer / month (Code Security + Secret Protection)",ghas
+"Prices of the two standalone GHAS SKUs?","Code Security $30/committer/mo · Secret Protection $19/committer/mo",ghas
+"What is Copilot Autofix and why does it matter?","AI-suggested one-click fixes for CodeQL findings. Turns a backlog of alerts into PRs devs actually merge.",ghas
+"Free entry point for Secret Protection deals?","Secret Risk Assessment — one-click org-wide scan. Report usually drives the deal by itself.",ghas
+"What are Security Campaigns?","Org-wide vuln remediation campaigns with tracked burn-down. Leadership sees progress; devs see prioritized work.",ghas
+"Customer uses Snyk. Displacement pitch?","GHAS Bundled at $49/committer usually beats Snyk on TCO. Adoption improves because findings appear in the PR — not a separate console.",ghas
+"Code Quality GA date?","July 20, 2026 — currently Public Preview",code-quality
+"What 'hybrid' approach does Code Quality take?","Deterministic rules + AI — legacy tools are rules-only, AI-native tools lack governance",code-quality
+"Which legacy competitors does Code Quality displace?","SonarQube · Coverity · Codacy · Parasoft",code-quality
+"Why do AI-native competitors (CodeAnt, DeepSource, Qodana) lose to GitHub?","They lack enterprise governance, policy enforcement, and platform reach",code-quality
+"Customer uses Sonar, renewing soon. Pitch?","Direct displacement. Code Quality is native to the same platform as GHAS — same PR flow, same policy engine. Hybrid AI + rules. GA July 20 — let's align to your renewal.",code-quality
+"What platform does Code Quality sit on?","Same code scanning platform as GHAS — quality lens vs security lens",code-quality
+"1 AI Credit = how much USD?","$0.01 — $10 budget = 1,000 credits",ubb
+"Two Copilot things that are FREE and never consume credits?","Code completion and Next Edit suggestions",ubb
+"Three budget layers where customers cap overage?","Enterprise · Organization · User (plus cost centers for chargeback)",ubb
+"Customer says 'I need to chargeback by team.' Response?","Cost centers govern overage ceilings and Azure sub separation at enterprise or cost-center level. Real chargeback via caps and reporting.",ubb
+"Customer says 'this feels like vendor lock-in.' Response?","GitHub is built on choice — model choice, agent choice, experience choice. Devs pick IDE/CLI/editor. Aligns with industry-standard billing model.",ubb
+"Customer says 'this is more complex than what we have today.' Response?","Start simple: pooled entitlements + one enterprise cap. Add cost center / user controls only where you need them. Phased approach.",ubb
+"What changed with fallback experiences under UBB?","No more zero-cost fallback. All usage is governed by available credits and admin budget controls.",ubb
+"5 smart usage tips to share with customers?","1) Reduce context size 2) Scope prompts clearly 3) Default to Auto model 4) Monitor heavy users 5) Set user-level limits",ubb
