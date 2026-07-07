@@ -1,4 +1,4 @@
-# Step 10: Capstone — Full Customer Scenario
+# Step 11: Capstone — Full Customer Scenario
 
 **⏱️ ~30 min** · Goal: run an end-to-end pitch from disco to close.
 
