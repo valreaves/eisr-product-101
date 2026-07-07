@@ -27,6 +27,12 @@ GitHub sells the following products. Learn the price and one-liner for each.
 - **AI Credit** = 1 credit = $0.01 USD. Copilot Business includes $19/mo, Enterprise $39/mo
 - **What's FREE in Copilot** = code completion + Next Edit suggestions (never consume credits)
 
-## 📝 Quiz
+## 🎴 Study the Flashcards
 
-Complete [`quiz.md`](quiz.md) in this folder. Commit + push when done.
+**[→ Open the interactive flashcard app](https://valreaves.github.io/eisr-product-101/flashcards/)** and filter by the **`portfolio`** tag. Tap to flip, shuffle, study on desktop or phone.
+
+Or open [`flashcards.md`](flashcards.md) in this folder for the click-to-reveal version.
+
+## ✅ Mark Complete
+
+When you can answer without peeking, edit [`complete.md`](complete.md), change `[ ]` to `[x]`, and commit. The bot will advance you to the next module.

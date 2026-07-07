@@ -32,5 +32,12 @@
 | "Confident in AI-generated code quality?" | "No" | "Nobody is. Legacy tools miss AI-specific issues. AI-native lacks governance. Code Quality is the only enterprise-ready hybrid." |
 | "Enforce quality gates?" | "Manually" | "Rulesets + Code Quality policies. Org-wide gates, no bypass, tracked in audit." |
 
-## 📝 Quiz
-Complete [`quiz.md`](quiz.md).
+## 🎴 Study the Flashcards
+
+**[→ Open the interactive flashcard app](https://valreaves.github.io/eisr-product-101/flashcards/)** and filter by the **`code-quality`** tag. Tap to flip, shuffle, study on desktop or phone.
+
+Or open [`flashcards.md`](flashcards.md) in this folder for the click-to-reveal version.
+
+## ✅ Mark Complete
+
+When you can answer without peeking, edit [`complete.md`](complete.md), change `[ ]` to `[x]`, and commit. The bot will advance you to the next module.

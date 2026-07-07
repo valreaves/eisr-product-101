@@ -27,5 +27,12 @@
 | "Time seniors spend on nits vs strategic?" | "Too much on nits" | "CCR takes the nits. Seniors get time back for architecture and mentoring. Huge ROI for your VP." |
 | "Use CodeRabbit / Bugbot today?" | "Yes" | "You already believe in AI review — you just have it bolted on. Native CCR runs in YOUR PR, YOUR Actions, YOUR governance. No separate contract." |
 
-## 📝 Quiz
-Complete [`quiz.md`](quiz.md).
+## 🎴 Study the Flashcards
+
+**[→ Open the interactive flashcard app](https://valreaves.github.io/eisr-product-101/flashcards/)** and filter by the **`ccr`** tag. Tap to flip, shuffle, study on desktop or phone.
+
+Or open [`flashcards.md`](flashcards.md) in this folder for the click-to-reveal version.
+
+## ✅ Mark Complete
+
+When you can answer without peeking, edit [`complete.md`](complete.md), change `[ ]` to `[x]`, and commit. The bot will advance you to the next module.

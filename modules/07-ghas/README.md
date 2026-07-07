@@ -31,5 +31,12 @@
 | "SAST tool today?" | "Snyk / Veracode" | "Consolidation. GHAS Bundled at $49/committer usually beats them on TCO and adoption improves because it's native." |
 | "Big vuln backlog?" | "Thousands" | "Autofix + Campaigns. Thousands of alerts → thousands of one-click PRs. Campaigns tracks burn-down at org level." |
 
-## 📝 Quiz
-Complete [`quiz.md`](quiz.md).
+## 🎴 Study the Flashcards
+
+**[→ Open the interactive flashcard app](https://valreaves.github.io/eisr-product-101/flashcards/)** and filter by the **`ghas`** tag. Tap to flip, shuffle, study on desktop or phone.
+
+Or open [`flashcards.md`](flashcards.md) in this folder for the click-to-reveal version.
+
+## ✅ Mark Complete
+
+When you can answer without peeking, edit [`complete.md`](complete.md), change `[ ]` to `[x]`, and commit. The bot will advance you to the next module.
