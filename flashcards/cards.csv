@@ -10,16 +10,35 @@ Front,Back,Tag
 "Two Copilot features that are FREE (don't consume AI Credits)?","Code completion and Next Edit suggestions",portfolio
 "1 AI Credit = how much USD?","$0.01 — so $10 budget = 1,000 credits",portfolio
 "One-line pitch for GHEC?","The GitHub platform: repos + Actions + Packages + AppSec + Copilot, native, one auth, one audit, one bill",portfolio
+"What add-ons are available with GHEC?","Copilot (Business/Enterprise), GHAS (Bundled/standalone), Codespaces, Advanced Security, Premium Support",portfolio
+"Copilot Individual price?","$10 / month or $100 / year (for individual devs — not the enterprise SKU)",portfolio
+"Copilot Free tier features?","Yes — 2,000 code completions/mo, 50 chat messages/mo, limited model choice. Great funnel to paid.",portfolio
+"What does 'per active user' mean for Copilot billing?","GitHub only bills users who actually USED Copilot that month — not just assigned. Reduces waste.",portfolio
 "What burns AI Credits?","Chat, agent mode, CCR, Coding Agent, premium models",copilot-business
-"Which AI models does Copilot support?","Claude, GPT, and Gemini — model choice built in",copilot-business
+"Which AI models does Copilot support?","Claude Sonnet, GPT-5, Gemini, o3-mini — model choice built in with a picker",copilot-business
 "Customer says 'our devs use ChatGPT / Cursor.' Your follow-up?","That's shadow IT — code and prompts leaving your control. Copilot Business = same experience with enterprise policy, content exclusions, and audit. $19/seat with $19 AI Credits included.",copilot-business
 "3 governance features unmanaged AI tools lack?","Content exclusions · Org policy · Audit log · Telemetry · Public code filter · SAML/SCIM",copilot-business
 "Where do you point customers for productivity metrics?","Copilot Metrics API — drops into any dashboard. Peer benchmark: 20-40% faster cycle time within 90 days.",copilot-business
+"What IDEs does Copilot support?","VS Code, Visual Studio, JetBrains (IntelliJ, PyCharm, etc.), Neovim, Xcode, Eclipse, Azure Data Studio",copilot-business
+"What CLIs does Copilot support?","GitHub CLI (gh copilot), Copilot CLI (standalone terminal agent), Windows Terminal",copilot-business
+"What is Copilot in the CLI?","Explains, suggests, and runs shell commands from natural language. `gh copilot suggest 'find all files modified today'`",copilot-business
+"What is the Copilot public code filter?","Optional org setting that blocks suggestions matching public code (150+ char match). Reduces IP contamination risk.",copilot-business
+"How does Copilot handle customer code (training)?","GitHub does NOT use enterprise customer code to train foundation models. Zero data retention on prompts.",copilot-business
+"What is Copilot Extensions?","Third-party AI agents (Docker, Sentry, Datadog, etc.) accessible via @mentions in chat. Extends Copilot into other tools.",copilot-business
+"Disco Q: 'How are your devs using AI today?'","Signal: 'ChatGPT/Cursor/free Copilot unmanaged.' Response: shadow IT risk — Copilot gives same UX with enterprise policy + audit.",copilot-business
+"Disco Q: 'What % of code is AI-generated?'","Signal: '>20% / no idea.' Response: governance matters now — Copilot logs, content exclusions, pairs with CCR.",copilot-business
+"Disco Q: 'How do you measure dev productivity?'","Signal: DORA / cycle time / PR throughput. Response: Copilot Metrics API drops into your dashboard. 20-40% faster cycle time in 90 days.",copilot-business
+"Disco Q: 'Have you had a security incident with AI tools?'","Signal: yes. Response: content exclusions + audit + no training on your code = the enterprise-grade Copilot Business gives you.",copilot-business
 "Name 4 Enterprise-only features (not in Business)?","Knowledge bases · PR summaries · Custom / fine-tuned models · Full cost centers",copilot-enterprise
 "Customer needs chargeback by BU. Which SKU + feature?","Copilot Enterprise + cost centers (separate Azure sub IDs for real billing separation)",copilot-enterprise
 "Customer says 'docs are scattered across Confluence.' Pitch?","Knowledge bases — Enterprise-only. Copilot indexes their docs and answers cite THEIR content. #1 differentiator.",copilot-enterprise
 "Rule of thumb — over how many seats does Enterprise become the right call?","~500 seats — Business gets fragile, cost centers + PR summaries pay for the $20 delta",copilot-enterprise
 "4 upsell triggers from Business to Enterprise?","1) Chargeback need 2) Scattered internal docs 3) Over 500 seats 4) Wants fine-tuning",copilot-enterprise
+"What are Copilot Knowledge Bases?","Enterprise-only. Index Markdown files across repos so Copilot answers cite YOUR docs (auth, standards, runbooks) with source links.",copilot-enterprise
+"What are Copilot cost centers?","Enterprise-only. Group orgs or users, apply separate budgets, bill to different Azure sub IDs. Real chargeback.",copilot-enterprise
+"What are Copilot PR summaries?","Enterprise-only. Auto-generated PR descriptions — 'what changed, why, files touched' — so reviewers get context fast.",copilot-enterprise
+"Disco Q: 'How much time do reviewers spend understanding what a PR does?'","Signal: too much. Response: Enterprise PR summaries — one paragraph, reviewer dives in already oriented.",copilot-enterprise
+"Disco Q: 'Do you want to fine-tune on your codebase?'","Signal: yes. Response: Enterprise only. Domain accuracy jumps significantly. Pilot on one repo first.",copilot-enterprise
 "Is CCR a separate SKU?","No — included with every paid Copilot tier",ccr
 "When does Agentic CCR GA?","February 5, 2026",ccr
 "Where does CCR run?","GitHub.com, Visual Studio, and VS Code",ccr
@@ -27,11 +46,23 @@ Front,Back,Tag
 "Customer uses CodeRabbit / Bugbot. Displacement pitch?","You already believe in AI review — you just have it bolted on. Native CCR runs in YOUR PR, YOUR Actions, YOUR governance. No separate contract. Included in Copilot you already pay for.",ccr
 "Why is CCR the H2 Hero motion?","It's included, native, one-click enable — every Copilot customer is a CCR customer. Fastest agentic value proof.",ccr
 "What model powers CCR?","o3-mini — premium model that draws from AI Credits",ccr
+"What is Agentic CCR different from regular CCR?","Agentic runs on GitHub Actions, has full-repo context (not just diff), catches cross-file issues. No user setup needed after enable.",ccr
+"How does CCR differ from Bugbot / CodeRabbit?","Native to GitHub PR flow (no bolt-on) · Runs in Actions (your governance) · Included in Copilot (no separate contract) · Agentic architecture GA Feb 2026",ccr
+"Can CCR reviews be customized to team style guides?","Yes — custom coding guidelines applied consistently on every PR (Enterprise feature enhanced).",ccr
+"How does CCR interact with Coding Agent PRs?","Perfect pairing — Coding Agent drafts PR, CCR reviews it, dev approves. Full agentic loop, human final.",ccr
+"Disco Q: 'How long is your PR review cycle?'","Signal: >1 day. Response: CCR reviews before human — reviewers open a clean PR, focus on architecture. Included in Copilot.",ccr
+"Disco Q: 'What consistency issues in reviews?'","Signal: depends on reviewer. Response: CCR applies your guidelines the same way every time. One-click enable.",ccr
+"Disco Q: 'Do reviews delay releases?'","Signal: yes. Response: CCR is the unblock. Agentic GA Feb 26 — full repo context, no user setup.",ccr
 "Where does Coding Agent run?","GitHub Actions",coding-agent
 "Is Coding Agent a separate SKU?","No — included with every paid Copilot license",coding-agent
 "Best workloads for Coding Agent?","The toil pile — bugs, tests, docs, refactors, boilerplate",coding-agent
 "Customer evaluating Devin / Cursor agents. Differentiation?","Coding Agent runs on YOUR Actions, respects YOUR runners, YOUR governance. Included in Copilot — no separate contract.",coding-agent
 "How does the Coding Agent workflow feel to a dev?","Assign an issue to Copilot like assigning a teammate → agent drafts a PR → dev reviews (with CCR) → merge",coding-agent
+"What does Coding Agent NOT do well?","Novel architecture, complex domain logic, judgment calls. Best for well-scoped, well-defined tasks with tests.",coding-agent
+"What guardrails does Coding Agent respect?","Repo Actions permissions, secret access rules, branch protection, required reviews, custom rulesets.",coding-agent
+"Coding Agent + MCP servers?","Yes — Coding Agent can call MCP (Model Context Protocol) servers for external context (Sentry, Docker, etc.).",coding-agent
+"Disco Q: 'Do you have a toil backlog?'","Signal: yes / huge. Response: assign to Copilot like a teammate — drafts a PR. Seniors review + merge. Get through toil without hiring.",coding-agent
+"Disco Q: '% time on toil vs features?'","Signal: >30% toil. Response: Coding Agent absorbs it. Output flows into normal PR → CCR → merge.",coding-agent
 "GHEC price + included Actions minutes?","$21 / user / mo · 50,000 Actions minutes · 50 GB Packages storage",ghec
 "What does EMU stand for and who is it for?","Enterprise Managed Users — GHEC cloud with IdP-only identity (no personal GitHub logins). For strict compliance.",ghec
 "Actions overage rate for Linux 2-core? Windows / macOS multipliers?","Linux 2-core: $0.008/min. Windows = 2x. macOS = 10x.",ghec
@@ -40,18 +71,54 @@ Front,Back,Tag
 "Three approved US services partners?","Avanade · Accenture · Slalom",ghec
 "How do you enforce standards across all repos in an org?","Rulesets — required checks, protected branches, push rules. Set at org level, applies to every repo.",ghec
 "When does a customer need GHES over GHEC?","Regulatory blockers: FedRAMP, air-gap, sovereignty. Often hybrid: GHES for regulated workloads, GHEC for the rest.",ghec
-"Price of GHAS Bundled?","$49 / active committer / month (Code Security + Secret Protection)",ghas
+"What is GitHub Codespaces?","Cloud dev environments. Spin up a dev box in seconds per PR — no more 'works on my machine.' Included minutes with GHEC, per-hour after.",ghec
+"What are Rulesets?","Modern replacement for branch protection. Set at org or repo level, apply patterns (all `main` branches), require checks, restrict who can push.",ghec
+"What are custom repo roles?","Fine-grained permissions beyond Read/Triage/Write/Maintain/Admin. E.g., 'security reviewer' with only read + PR review rights.",ghec
+"What is push protection (repository setting)?","Blocks pushes that contain secrets before they reach GitHub. Standard with Secret Protection SKU.",ghec
+"How does merge queue work?","Auto-queues PRs, runs required checks in the merge order, merges only if passing. Prevents 'green PR, red main' problems.",ghec
+"What are custom repository properties?","Metadata you attach to repos (team, tier, compliance). Filter/enforce rulesets by property.",ghec
+"How does IP allow list work?","Restrict access to GHEC from specific IP ranges (e.g., VPN only). Set at enterprise level.",ghec
+"Audit log streaming targets?","Splunk, Datadog, AWS S3, Azure Event Hubs, Azure Blob, Google Cloud Storage. Real-time compliance evidence.",ghec
+"Disco Q: 'How many SCM/CI tools?'","Signal: 3+. Response: consolidation to GHEC = one auth, one audit, one bill. TCO math works.",ghec
+"Disco Q: 'ADO exit plan?'","Signal: on roadmap. Response: MSFT funds ADO → GHEC (30% empowerment). Cloud Accelerate Factory + partner runs the migration.",ghec
+"Disco Q: 'How enforce standards across repos?'","Signal: manual. Response: Rulesets — set once at org level, applies to every repo. No scripts.",ghec
+"Disco Q: 'Regulatory blocker for cloud?'","Signal: FedRAMP/air-gap. Response: GHES fits. Often hybrid — GHES for regulated, GHEC for rest.",ghec
+"Price of GHAS Bundled?","$49 / active committer / month (includes Code Security + Secret Protection)",ghas
 "Prices of the two standalone GHAS SKUs?","Code Security $30/committer/mo · Secret Protection $19/committer/mo",ghas
+"Define 'active committer'?","Anyone who has pushed to a GHAS-enabled repo in the last 90 days.",ghas
 "What is Copilot Autofix and why does it matter?","AI-suggested one-click fixes for CodeQL findings. Turns a backlog of alerts into PRs devs actually merge.",ghas
-"Free entry point for Secret Protection deals?","Secret Risk Assessment — one-click org-wide scan. Report usually drives the deal by itself.",ghas
+"Free entry point for Secret Protection deals?","Secret Risk Assessment — one-click, org-wide scan. Report usually drives the deal by itself.",ghas
 "What are Security Campaigns?","Org-wide vuln remediation campaigns with tracked burn-down. Leadership sees progress; devs see prioritized work.",ghas
 "Customer uses Snyk. Displacement pitch?","GHAS Bundled at $49/committer usually beats Snyk on TCO. Adoption improves because findings appear in the PR — not a separate console.",ghas
-"Code Quality GA date?","July 20, 2026 — currently Public Preview",code-quality
+"What is CodeQL?","GitHub's SAST engine. Semantic code analysis, 10+ languages, 3000+ default queries, extensible with custom queries.",ghas
+"Languages supported by CodeQL?","Java/Kotlin, JavaScript/TypeScript, Python, C/C++, C#, Go, Ruby, Swift. Community: Rust preview.",ghas
+"What is Dependabot?","Automated dependency vuln alerts + auto-generated PRs to update. Included with GHAS Code Security.",ghas
+"What are Dependabot version updates vs security updates?","Version updates: routine dep bumps on a schedule (nice-to-have). Security updates: patch known CVEs (critical).",ghas
+"How does secret scanning differ from push protection?","Scanning: alerts on secrets already in repo history. Push protection: blocks NEW secrets from being committed.",ghas
+"What is the Secret Risk Assessment?","Free one-click org-wide scan showing exposed secrets across all repos. Delivers a report your CISO can act on.",ghas
+"Partner secret alerts — how do they work?","AWS, GCP, Stripe, Slack, and 100+ partners auto-notify when their secret is detected in GitHub. Faster rotation.",ghas
+"What's included in GHAS custom pattern secret scanning?","Define regex patterns to detect YOUR internal secret formats (custom tokens, IDs). Enterprise/Org level.",ghas
+"What is validity checking for secrets?","When a token is detected, GitHub tests if it's still valid (against provider APIs). Prioritize live secrets.",ghas
+"Autofix language coverage?","Java, JavaScript, TypeScript, Python, C#, Go. Expanding.",ghas
+"How does GHAS deliver evidence for auditors?","Scan history · Dismissal reasons · Alert lifecycle · Remediation timing · All audit-log streamed to SIEM.",ghas
+"Disco Q: 'How do vulns reach devs today?'","Signal: ticketed weeks later. Response: GHAS puts findings inside the PR. Autofix drafts the fix as a one-click PR.",ghas
+"Disco Q: 'Any secret leaks last 12 mo?'","Signal: yes / not sure. Response: run the free Secret Risk Assessment — one click, org-wide report drives the deal.",ghas
+"Disco Q: 'Compliance driver?'","Signal: SOC2/FedRAMP/PCI/SOX. Response: GHAS gives evidence trail — scan history, remediation tracking, audit-log streamed.",ghas
+"Disco Q: 'Big vuln backlog?'","Signal: thousands. Response: Autofix + Campaigns. Thousands of alerts → thousands of one-click PRs, tracked burn-down.",ghas
+"Disco Q: 'What SAST/SCA tools?'","Signal: Snyk/Veracode/Checkmarx. Response: consolidation. GHAS beats on TCO + adoption improves because findings are in the PR.",ghas
+"Code Quality GA date?","July 20, 2026 — Public Preview currently",code-quality
 "What 'hybrid' approach does Code Quality take?","Deterministic rules + AI — legacy tools are rules-only, AI-native tools lack governance",code-quality
 "Which legacy competitors does Code Quality displace?","SonarQube · Coverity · Codacy · Parasoft",code-quality
 "Why do AI-native competitors (CodeAnt, DeepSource, Qodana) lose to GitHub?","They lack enterprise governance, policy enforcement, and platform reach",code-quality
 "Customer uses Sonar, renewing soon. Pitch?","Direct displacement. Code Quality is native to the same platform as GHAS — same PR flow, same policy engine. Hybrid AI + rules. GA July 20 — let's align to your renewal.",code-quality
 "What platform does Code Quality sit on?","Same code scanning platform as GHAS — quality lens vs security lens",code-quality
+"What code quality issues does the tool catch?","Complexity · Duplication · Bad patterns · Dead code · Poor naming · AI-specific anti-patterns (hallucinated APIs, over-engineered code)",code-quality
+"How does Code Quality handle AI-generated code specifically?","AI-aware rules trained on common AI mistakes: hallucinated imports, dead branches, over-abstracted code, style drift.",code-quality
+"Can Code Quality enforce team style guides?","Yes — configurable rules, plus custom rules per repo/org. Ruleset integration for enforcement.",code-quality
+"How does Code Quality reporting help leadership?","Org-wide dashboards: quality debt by team, trend over time, hotspots. Same reporting UX as GHAS.",code-quality
+"Disco Q: 'Confident in AI-generated code quality?'","Signal: no. Response: nobody is — legacy tools miss AI issues, AI-native lacks governance. Code Quality is the only enterprise-ready hybrid.",code-quality
+"Disco Q: 'Enforce quality gates?'","Signal: manually. Response: Rulesets + Code Quality policies. Org-wide gates, no bypass, tracked in audit.",code-quality
+"Disco Q: 'Quality metrics leadership sees?'","Signal: no / hard to pull. Response: native reporting. Same dashboards as GHAS. One place for security + quality visibility.",code-quality
 "1 AI Credit = how much USD?","$0.01 — $10 budget = 1,000 credits",ubb
 "Two Copilot things that are FREE and never consume credits?","Code completion and Next Edit suggestions",ubb
 "Three budget layers where customers cap overage?","Enterprise · Organization · User (plus cost centers for chargeback)",ubb
@@ -60,3 +127,11 @@ Front,Back,Tag
 "Customer says 'this is more complex than what we have today.' Response?","Start simple: pooled entitlements + one enterprise cap. Add cost center / user controls only where you need them. Phased approach.",ubb
 "What changed with fallback experiences under UBB?","No more zero-cost fallback. All usage is governed by available credits and admin budget controls.",ubb
 "5 smart usage tips to share with customers?","1) Reduce context size 2) Scope prompts clearly 3) Default to Auto model 4) Monitor heavy users 5) Set user-level limits",ubb
+"How are AI Credits pooled?","At the enterprise level. All licenses share the pool. Overage governed by budgets at Enterprise/Org/User + cost centers.",ubb
+"What does 'premium model' consume?","Multiplier on base credit cost. E.g., Claude Sonnet 3.5 = 1x, o3-mini = 1x (for now), o1 = 10x. Check current multipliers.",ubb
+"What is an 'included' credit vs 'additional' credit?","Included = comes free with license ($19 or $39/mo). Additional = paid overage beyond the included pool.",ubb
+"How do CCR credits work?","Agentic CCR uses o3-mini (premium) — draws credits per review. Plus Actions minutes for the runner.",ubb
+"How does the Coding Agent burn credits?","Per task. Runs in Actions. Uses credits for LLM calls + Actions minutes for compute.",ubb
+"Disco Q: 'How allocate dev tool spend by team?'","Signal: chargeback by BU. Response: cost centers — map teams, separate Azure sub IDs. Real billing separation.",ubb
+"Disco Q: 'Hard caps or reporting-only?'","Signal: hard caps. Response: budgets at Enterprise/Org/User. Hard caps, no surprise bills.",ubb
+"Disco Q: 'Finance comfortable with variable spend?'","Signal: nervous. Response: start pooled + one enterprise cap. Layer controls where needed. Phased.",ubb
